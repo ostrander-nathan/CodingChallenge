@@ -7,7 +7,19 @@ namespace CodingChallenge.PirateSpeak
     {
         public string[] GetPossibleWords(string jumble, string[] dictionary)
         {
-            throw new NotImplementedException();
+        
+
+            var orderedLetters = jumble.OrderBy(y => y);
+            var compareWords = dictionary.OrderBy(x => x);
+
+            //foreach (var word in dictionary)
+            //{
+            //     word.OrderBy(x=>x).Where(orderedLetters == compareWords)   
+            //}
+          
+
+            return null;
+
         }
     }
 }
